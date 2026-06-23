@@ -1,6 +1,6 @@
 const openBtn = document.getElementById("clickopen");
-const openBtn = document.getElementById("clickclose");
-const openBtn = document.getElementById("Modal");
+const closeBtn = document.getElementById("clickclose");
+const modal = document.getElementById("Modal");
 
 
 openBtn.addEventListener("click", () => {modal.classList.add("open");});
