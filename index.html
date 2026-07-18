@@ -43,21 +43,22 @@
 
     
     <center>
-        
+     <main>   
     <button commandFor = "example-dialog" command = "show-modal" class="cta" id="oprn-dialog"><u>About</u></button>
+     </main>
 <dialog id="example-dialog" id="modal">
   <form class = "dialog_form" id="contact-form"
 <div class="dialog_header">
   </div>
 
     <div class="dialog_body"></div>
-    <div class="dialog_footer"></div>
-
-    <button type ="button">
+    
+    <div class="dialog_footer">
+    <button commandFor = "example dialog" command = "closed" type ="button" class="btn-secondary" id="cancel-dialog"> cancel</button>
+      <button type = "button" class ="cta" id="submit-dialog">send message</button>
     </div>
     </form>
-</dialog>
-  </>  
+</dialog> 
   
     <h2>StartUps</h2>
     <p>StartUps are already finish and establish business projects on sale, meant for personal ownership and use and/or design to generate income. </p>
